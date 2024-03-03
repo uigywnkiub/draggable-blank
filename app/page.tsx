@@ -1,10 +1,10 @@
 import submitRefresh from "./actions";
-import Draggable from "./draggable";
+import Dragger from "./dragger";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-12">
-      <Draggable>
+      <Dragger>
         <div className="w-full max-w-sm rounded-lg p-6 flex items-center justify-center border bg-[#f3f4f6] bg-opacity-90 shadow">
           <div className="rounded-lg shadow-sm bg-slate-200 shadow-md">
             <div className="text-center px-12 py-6 rounded-lg">
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </Draggable>
+      </Dragger>
     </main>
   );
 }
